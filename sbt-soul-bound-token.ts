@@ -36,7 +36,7 @@ export class SBTContract {
   }
 }
 
-// 测试
+// 测 试
 const sbt = new SBTContract('DeveloperSBT');
 sbt.mint('user1', 'sbt001');
 console.log('持有者:', sbt.ownerOf('sbt001'));
